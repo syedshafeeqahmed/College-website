@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+  <meta charset="utf-8">
+  <title>GCAK</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+  <link rel="icon" href="images/logo.jpg" type="image/x-icon">
+
+</head>
+
+<body>
+  <!-- preloader start -->
+  <div class="preloader">
+    <img src="images/preloader.gif" alt="preloader">
+  </div>
+  <!-- preloader end -->
+
+<!-- header -->
+<header class="fixed-top header">
+  <!-- top header -->
+  <div class="top-header py-2 bg-white">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-4 text-center text-lg-left">
+          <a class="text-color mr-3" href="callto:08472-245064"><strong>CALL</strong> 08472-245064</a>
+          <ul class="list-inline d-inline">
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-linkedin"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="#"><i class="ti-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-8 text-center text-lg-right">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="notice.html">notice</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="scholarship.html">SCHOLARSHIP</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="http://studentportal.universitysolutions.in/">login</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="https://studentportal.universitysolutions.in/#">register</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- navbar -->
+  <div class="navigation w-100">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.jpg" alt="logo"width="70" height="60">
+          <h5 class="text-white" data-animation-out="fadeOutUp" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">Government College(Autonomous)Kalaburagi</h5>
+        </a>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item @@about">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item @@courses">
+              <a class="nav-link" href="courses.html">COURSES</a>
+            </li>
+            <li class="nav-item @@events">
+              <a class="nav-link" href="events.html">EVENTS</a>
+            </li>
+            <li class="nav-item @@blog">
+              <a class="nav-link" href="blog.html">BLOG</a>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Pages
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="teacher.html">Teachers</a>
+                <a class="dropdown-item" href="teacher-single.html">our Team</a>
+                <a class="dropdown-item" href="notice.html">Notice</a>
+                <a class="dropdown-item" href="Regulations.html">Regulations</a>
+                <a class="dropdown-item" href="scholarship.html">Scholarship</a>
+                <a class="dropdown-item" href="masscicourse-single.html">Course Details</a>
+              </div>
+            </li>
+            <li class="nav-item @@contact">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- /header -->
+<!-- Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0 border-0 p-4">
+            <div class="modal-header border-0">
+                <h3>Register</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="login">
+                    <form action="#" class="row">
+                        <div class="col-12">
+                            <input type="text" class="form-control mb-3" id="signupPhone" name="signupPhone" placeholder="Phone">
+                        </div>
+                        <div class="col-12">
+                            <input type="text" class="form-control mb-3" id="signupName" name="signupName" placeholder="Name">
+                        </div>
+                        <div class="col-12">
+                            <input type="email" class="form-control mb-3" id="signupEmail" name="signupEmail" placeholder="Email">
+                        </div>
+                        <div class="col-12">
+                            <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword" placeholder="Password">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">SIGN UP</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0 border-0 p-4">
+            <div class="modal-header border-0">
+                <h3>Login</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="#" class="row">
+                    <div class="col-12">
+                        <input type="text" class="form-control mb-3" id="loginPhone" name="loginPhone" placeholder="Phone">
+                    </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control mb-3" id="loginName" name="loginName" placeholder="Name">
+                    </div>
+                    <div class="col-12">
+                        <input type="password" class="form-control mb-3" id="loginPassword" name="loginPassword" placeholder="Password">
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">LOGIN</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- hero slider -->
+<section class="hero-section overlay bg-cover" data-background="images/banner/originalban.jpeg">
+  <div class="container">
+    <div class="hero-slider">
+      <!-- slider item -->
+      <div class="hero-slider-item">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="text-white" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Your bright future is our mission</h1>
+            <p class="text-muted mb-4" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">To Equip students with relevant knowledge, competence and creativity to face global challenges.</p>
+          </div>
+        </div>
+      </div>
+      <!-- slider item -->
+      <div class="hero-slider-item">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="text-white" data-animation-out="fadeOutUp" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">Your bright future is our mission</h1>
+            <p class="text-muted mb-4" data-animation-out="fadeOutUp" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".4">To impart quality education to meet the needs of the emerging society.
+              To generate new knowledge by engaging in research and to promote academic growth..</p>
+          </div>
+        </div>
+      </div>
+      <!-- slider item -->
+      <div class="hero-slider-item">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="text-white" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">Your bright future is our mission</h1>
+            <p class="text-muted mb-4" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".4">To be an institute contributing to the nation and the world through excellence in higher education and to make the students of Hyderabad-Karnataka region focus on the development of Physical, Intellectual, Scientific, and Social potential to foster global competencies.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /hero slider -->
+
+<!-- banner-feature -->
+<section class="bg-gray overflow-md-hidden">
+  <div class="container-fluid p-0">
+    <div class="row no-gutters">
+      <div class="col-xl-4 col-lg-5 align-self-end">
+        <img class="img-fluid w-100" src="images/banner/ban.jpeg" alt="banner-feature">
+      </div>
+      <div class="col-xl-8 col-lg-7">
+        <div class="row feature-blocks bg-gray justify-content-between">
+          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
+            <i class="ti-book mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+            <h3 class="mb-xl-4 mb-lg-3 mb-4">Scholorship</h3>
+            <p>The Students are financially supported with various scholarship schemes of government of
+              Karnataka and GOI. The RAMP facility is provided in all the building to enable easy access to the disable
+              students. </p>
+          </div>
+          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
+            <i class="ti-blackboard mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+            <h3 class="mb-xl-4 mb-lg-3 mb-4">Our Notice Board</h3>
+            <p>The Students and the Staff will get to know about all the latest updates and notices regarding adamissions,examinations,scholorships and much more.</p>
+          </div>
+          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
+            <i class="ti-agenda mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+            <h3 class="mb-xl-4 mb-lg-3 mb-4">Facilities</h3>
+            <p>The college has an excellent student support system. The various representative bodies such as Library committee,
+              SC/ST Student Cell,Cultural activity cell
+              NSS/NCC/Red Cross/Red Ribbon club/ Rangers & Rowers units,Sports activities established to support
+              students.</p>
+          </div>
+          <div class="col-sm-6 col-xl-5 mb-xl-5 mb-lg-3 mb-4 text-center text-sm-left">
+            <i class="ti-write mb-xl-4 mb-lg-3 mb-4 feature-icon"></i>
+            <h3 class="mb-xl-4 mb-lg-3 mb-4">Admission Now</h3>
+            <p>The college has all the necessary resources to impart quality education.Being an autonomous institution, We have established the statutory bodies as per
+              UGC norms. Quality parameter developed for various administrative and academic activities.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /banner-feature -->
+
+<!-- about us -->
+<section class="section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 order-2 order-md-1">
+        <h2 class="section-title">About Us</h2>
+        <p>Government College Kalaburagi is one of the oldest and leading institutions of higher learning in the educationally backward region of Hyderabad Karnataka region. The Government College, Gulbarga was stared in the year 1932 as an Intermediate College affiliated to Osmania University, Hyderabad in the erstwhile Nizam Government .Later with formation of new state of Karnataka in the year 1952 it was upgraded to a Degree college affiliated to Karnataka University, Dharwad. In the beginning B.A. and B.Sc. program was offered in various disciplines including languages. In the year 1980, when Gulbarga University was established in Kalaburagi, the college got affiliated to it. In the subsequent years i.e 1986, 2001, 2006 many UG courses such as B.Com., B.Sc. (Computer Science), and B.B.M. were started in the college. Thus, Government College, Kalaburagi became one among the few colleges in the Hyderabad Karnataka Region to offer UG courses in various faculties. The college added another cap to its feather, when Gulbarga University recognized it as PG centre and allowed to start PG courses in History and Economics in the year 2007. In the subsequent years many PG courses were started and at present 09 PG courses in various disciplines including Commerce, Mathematics and Computer Science are offered in the college. Present strength of the college is about 3000 students.</p>
+        <a href="about.html" class="btn btn-primary-outline">Learn more</a>
+      </div>
+      <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+        <img class="img-fluid w-100" src="images/about/grp.jpg" alt="about image">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /about us -->
+
+<!-- courses -->
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+          <h2 class="mb-0 text-nowrap mr-3">Our Course</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+          <div>
+            <a href="courses.html" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">see all</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- course list -->
+<div class="row justify-content-center">
+  <!-- course item -->
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/courses/arts.jpg" alt="course thumb">
+      <div class="card-body">
+        <ul class="list-inline mb-2"> 
+          <li class="list-inline-item"><a class="text-color" href="#">Under-Graduation</a></li>
+        </ul>
+        <a href="baarts.html">
+          <h4 class="card-title">Bachelor of Arts</h4>
+        </a>
+        <p class="card-text mb-4"> We offer Bachelors of arts in thirteen different fields.Click on the button to know more.</p>
+        <a href="baarts.html" class="btn btn-primary btn-sm">know more</a>
+      </div>
+    </div>
+  </div>
+  <!-- course item -->
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/courses/science.jpg" alt="course thumb">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"><a class="text-color" href="#">Under-Graduation</a></li>
+        </ul>
+        <a href="bsci.html">
+          <h4 class="card-title">Bachelor of Science</h4>
+        </a>
+        <p class="card-text mb-4">We offer bachelors of science in seven different fields.Click on the button to know more.</p>
+        <a href="bsci.html" class="btn btn-primary btn-sm">know more</a>
+      </div>
+    </div>
+  </div>
+  <!-- course item -->
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/courses/commerce.jpeg" alt="course thumb">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"><a class="text-color" href="#">Under-Graduation</a></li>
+        </ul>
+        <a href="bcom.html">
+          <h4 class="card-title">Bachelor of Commerce</h4>
+        </a>
+        <p class="card-text mb-4">We offer bachelors of commerce in commerce related subjects.Click on the button to know more.</p>
+        <a href="bcom.html" class="btn btn-primary btn-sm">know more</a>
+      </div>
+    </div>
+  </div>
+  <!-- course item -->
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/courses/masarts.jpeg" alt="course thumb">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"><a class="text-color" href="#">Post-Graduation</a></li>
+        </ul>
+        <a href="masarts.html">
+          <h4 class="card-title">Master of Arts</h4>
+        </a>
+        <p class="card-text mb-4"> We offer masters of arts in seven different fields.Click on the button to know more.</p>
+        <a href="masarts.html" class="btn btn-primary btn-sm">know more</a>
+      </div>
+    </div>
+  </div>
+  <!-- course item -->
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/courses/masters.jpg" alt="course thumb">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"><a class="text-color" href="#">Post-Graduation</a></li>
+        </ul>
+        <a href="masscicourse-single.html">
+          <h4 class="card-title">Master of Science</h4>
+        </a>
+        <p class="card-text mb-4">We offer masters of science in five different fields.Click on the button to know more.</p>
+        <a href="masscicourse-single.html" class="btn btn-primary btn-sm">know more</a>
+      </div>
+    </div>
+  </div>
+  <!-- course item -->
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/courses/commas.jpeg" alt="course thumb">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"><a class="text-color" href="#">Post-Graduation</a></li>
+        </ul>
+        <a href="mascom.html">
+          <h4 class="card-title">Master of Commerce</h4>
+        </a>
+        <p class="card-text mb-4"> We offer masters of commerce in commerce related subjects .Click on the button to know more.</p>
+          <a href="mascom.html"  class="btn btn-primary btn-sm">know more</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /course list -->
+    <!-- mobile see all button -->
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="courses.html" class="btn btn-sm btn-primary-outline d-sm-none d-inline-block">sell all</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /courses -->
+
+<!-- cta -->
+<section class="section bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title text-white">Advanced Training For NCC</h2>
+        <p>The College NCC Unit has a strength of 120 students, Apart from weekly parades, the students are trained in life skills, soft skills and discipline. The NCC students of the college have achieved many coveted positions in the society.</p>
+        <h6 class="text-white font-secondary mb-0">Click to Join the Advance Workshop</h6>
+        <a href="contact.html" class="btn btn-secondary">join now</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /cta -->
+
+<!-- success story -->
+<section class="section bg-cover" data-background="images/backgrounds/success-story.jpg">
+  <div class="container">
+    <div class="row">
+          <i class="ti-control-play"></i>
+        </a>
+      </div>
+      <div class="col-lg-6 col-sm-8">
+        <div class="bg-white p-5">
+          <h2 class="section-title">Success Stories</h2>
+          <p>The success of the candidates.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /success story -->
+
+
+<!-- team-->
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <h2 class="section-title">Our Team</h2>
+      </div>
+      <!-- team-->
+      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+        <div class="card border-0 rounded-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/CCE.jpeg" alt="teacher">
+          <div class="card-body">
+            <a href="teacher-single.html">
+              <h4 class="card-title">DR.S.S.Hatti</h4>
+            </a>
+            <p>Chief Controller of Examinations</p>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-google"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- teacher -->
+      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+        <div class="card border-0 rounded-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/COE.jpeg" alt="team member">
+          <div class="card-body">
+            <a href="teacher-single.html">
+              <h4 class="card-title">Dr.Prashantkumar M.</h4>
+            </a>
+            <p> Controller of Examinations (COE)</p>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-google"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- teacher -->
+      <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+        <div class="card border-0 rounded-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="images/Deputy.jpeg" alt="teacher">
+          <div class="card-body">
+            <a href="teacher-single.html">
+              <h4 class="card-title">Dr.Mahantesh S Swamy</h4>
+            </a>
+            <p>Deputy Controller of Examinations</p>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-facebook"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-twitter-alt"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-google"></i></a></li>
+              <li class="list-inline-item"><a class="text-color" href="#"><i class="ti-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /teachers -->
+
+<!-- blog -->
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title">Latest News</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+  <!-- blog post -->
+  <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+    <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/blog/post-1.jpg" alt="Post thumb">
+      <div class="card-body">
+        <!-- post meta -->
+        <ul class="list-inline mb-3">
+          <!-- post date -->
+          <li class="list-inline-item mr-3 ml-0">August 15, 2022</li>
+          <!-- author -->
+          <li class="list-inline-item mr-3 ml-0">Independence Day </li>
+        </ul>
+        <a href="events.html">
+          <h4 class="card-title">Aazadi ka amrut mahotsav</h4>
+        </a>
+        <p class="card-text">Independence day Celebration</p>
+        <a href="events.html" class="btn btn-primary btn-sm">read more</a>
+      </div>
+    </div>
+  </article>
+  <!-- blog post -->
+  <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+    <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/blog/post-2.jpg" alt="Post thumb">
+      <div class="card-body">
+        <!-- post meta -->
+        <ul class="list-inline mb-3">
+          <!-- post date -->
+          <li class="list-inline-item mr-3 ml-0">July 15, 2022</li>
+          <!-- author -->
+          <li class="list-inline-item mr-3 ml-0"></li>
+        </ul>
+        <a href="courses.html">
+          <h4 class="card-title">First Semester Admissions Open for B.A,Bsc,Bcom.</h4>
+        </a>
+        <p class="card-text">Admissions Open for B.A,Bsc,Bcom.</p>
+        <a href="courses.html" class="btn btn-primary btn-sm">read more</a>
+      </div>
+    </div>
+  </article>
+  <!-- blog post -->
+  <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+    <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/blog/post-3.jpg" alt="Post thumb">
+      <div class="card-body">
+        <!-- post meta -->
+        <ul class="list-inline mb-3">
+          <!-- post date -->
+          <li class="list-inline-item mr-3 ml-0">January 24, 2022</li>
+          <!-- author -->
+          <li class="list-inline-item mr-3 ml-0"></li>
+        </ul>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSePvApH_Z7jEZn01aMYArhQ1NeeXRB6wq8u1Ye9uCyHiKxQ3Q/viewform">
+          <h4 class="card-title">Alumni Registration</h4>
+        </a>
+        <p class="card-text">For Alumni registraion click on the button below.</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSePvApH_Z7jEZn01aMYArhQ1NeeXRB6wq8u1Ye9uCyHiKxQ3Q/viewform" class="btn btn-primary btn-sm">read more</a>
+      </div>
+    </div>
+  </article>
+</div>
+  </div>
+</section>
+<!-- /blog -->
+
+<!-- footer -->
+<footer>
+  <!-- newsletter -->
+  <div class="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 ml-auto bg-primary py-5 newsletter-block">
+          <h3 class="text-white">Join Now</h3>
+          <form action="#">
+            <div class="input-wrapper">
+              <input type="email" class="form-control border-0" id="newsletter" name="newsletter" placeholder="Enter Your Email...">
+              <button type="submit" value="send" class="btn btn-primary">Join</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer content -->
+  <div class="footer bg-footer section border-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+          <!-- logo -->
+          <a class="logo-footer" href="index.html"><img class="img-fluid mb-4" src="images/logo.jpg" alt="logo"></a>
+          <ul class="list-unstyled">
+            <li class="mb-2">Government College Autonomous Kalaburagi</li>
+            <li class="mb-2"></li>Sedam Road,Kalaburagi - 585105</li>
+            <li class="mb-2">08472-245064</li>
+            <li class="mb-2"> govt.cleglb@gmail.com</li>
+          </ul>
+        </div>
+        <!-- company -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">COLLEGE</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="about.html">About Us</a></li>
+            <li class="mb-3"><a class="text-color" href="teacher.html">Our Team</a></li>
+            <li class="mb-3"><a class="text-color" href="contact.html">Contact</a></li>
+            <li class="mb-3"><a class="text-color" href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <!-- links -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">LINKS</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="courses.html">Courses</a></li>
+            <li class="mb-3"><a class="text-color" href="events.html">Events</a></li>
+            <li class="mb-3"><a class="text-color" href="blog.html">Gallary</a></li>
+            <li class="mb-3"><a class="text-color" href="contact.html">FAQs</a></li>
+          </ul>
+        </div>
+        <!-- support -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">SUPPORT</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="scholarship.html">Scholorship</a></li>
+            <li class="mb-3"><a class="text-color" href="#">Hostel Facility</a></li>
+            <li class="mb-3"><a class="text-color" href="#">Library</a></li>
+            <li class="mb-3"><a class="text-color" href="blog.html">NCC/NSS</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- copyright -->
+  <script language="javascript">document.write( unescape( '%3C%64%69%76%20%63%6C%61%73%73%3D%22%63%6F%70%79%72%69%67%68%74%20%70%79%2D%34%20%62%67%2D%66%6F%6F%74%65%72%22%3E%0A%20%20%20%20%3C%64%69%76%20%63%6C%61%73%73%3D%22%63%6F%6E%74%61%69%6E%65%72%22%3E%0A%20%20%20%20%20%20%3C%64%69%76%20%63%6C%61%73%73%3D%22%72%6F%77%22%3E%0A%20%20%20%20%20%20%20%20%3C%64%69%76%20%63%6C%61%73%73%3D%22%63%6F%6C%2D%73%6D%2D%37%20%74%65%78%74%2D%73%6D%2D%6C%65%66%74%20%74%65%78%74%2D%63%65%6E%74%65%72%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3C%70%20%63%6C%61%73%73%3D%22%6D%62%2D%30%22%3E%43%6F%70%79%72%69%67%68%74%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%73%63%72%69%70%74%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%76%61%72%20%43%75%72%72%65%6E%74%59%65%61%72%20%3D%20%6E%65%77%20%44%61%74%65%28%29%2E%67%65%74%46%75%6C%6C%59%65%61%72%28%29%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%64%6F%63%75%6D%65%6E%74%2E%77%72%69%74%65%28%43%75%72%72%65%6E%74%59%65%61%72%29%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%2F%73%63%72%69%70%74%3E%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%A9%20%73%61%6E%69%79%61%0A%20%20%20%20%20%20%20%20%20%20%20%20%A9%20%73%68%61%66%65%65%71%3C%2F%70%3E' ))</script>
+        </div>
+        <div class="col-sm-5 text-sm-right text-center">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-facebook text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-twitter-alt text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-linkedin text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="#"><i class="ti-instagram text-primary"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- filter -->
+<script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
